@@ -1,0 +1,56 @@
+body {
+  font-family: 'Garamond', serif;
+  background-color: #fdf6e3; /* cor de papel antigo */
+  color: #58391c; /* cor de tinta escura */
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #8d7662; /* cor de madeira */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#livros {
+  flex-grow: 2;
+  margin-right: 20px;
+}
+
+aside {
+  flex-basis: 300px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #426b42; /* verde escuro */
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #365a36;
+}
+
+p {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}

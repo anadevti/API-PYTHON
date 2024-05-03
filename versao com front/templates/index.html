@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca Virtual</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>Biblioteca Virtual</h1>
+    </header>
+    <main>
+        <section id="livros">
+            <!-- Livros serão carregados aqui -->
+        </section>
+        <aside>
+            <h2>Adicionar Novo Livro</h2>
+            <form onsubmit="adicionarLivro(); return false;">
+                <input type="text" id="titulo" placeholder="Título" required>
+                <input type="text" id="autor" placeholder="Autor" required>
+                <button type="submit">Adicionar</button>
+            </form>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2024 Biblioteca Virtual. Todos os direitos reservados.</p>
+    </footer>
+    <script src="/static/script.js"></script>
+</body>
+</html>
